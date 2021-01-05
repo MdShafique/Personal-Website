@@ -1,0 +1,82 @@
+body{
+    font-family: 'Noto Sans', sans-serif;
+    margin: 0;
+  
+}
+h1{
+    font-size: 50px;
+}
+#expmakeup{
+    color: darkorange;
+}
+h2{
+    font-size: 40px;
+}
+p{
+    color: dimgray;
+    font-style: italic;
+}
+#baccha{
+    color: crimson;
+}
+#becomebig{
+    color: darkgoldenrod;
+}
+.rong-heilights{
+    color: rgb(60, 255, 0);
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half-width img{
+    width: 100%;
+}
+.top-area{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+section{
+    height: 500px;
+    padding-bottom: 150px;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, rgb(122, 120, 236), rgb(151, 71, 255));
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+.dream-area{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.single-experience{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 80%;
+}
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-color: white;
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, rgb(170, 55, 47), rgb(227, 255, 71));
+    border-image-slice: 1;
+}
+#baby-web{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, rgb(61, 61, 110), rgba(116, 12, 69, 0.493));
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+    font-size: 12px;
+}
