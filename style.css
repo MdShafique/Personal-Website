@@ -1,29 +1,21 @@
 body{
-    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin: 0;
-  
+    width: 100%;
 }
 h1{
+    color: #363958;
     font-size: 50px;
 }
-#expmakeup{
-    color: darkorange;
-}
 h2{
-    font-size: 40px;
+    color: #FF8367;
+    font-size: 50px;
 }
-p{
-    color: dimgray;
-    font-style: italic;
+h4{
+   color: #363958; 
 }
-#baccha{
-    color: crimson;
-}
-#becomebig{
-    color: darkgoldenrod;
-}
-.rong-heilights{
-    color: rgb(60, 255, 0);
+section{
+    padding-bottom: 150px;
 }
 .half-width{
     width: 40%;
@@ -34,49 +26,79 @@ p{
 .half-width img{
     width: 100%;
 }
-.top-area{
-    background-image: url(images/top-banner.png);
-    background-repeat: no-repeat;
-}
-section{
-    height: 500px;
-    padding-bottom: 150px;
-}
 .link-button{
     text-decoration: none;
-    background-image: linear-gradient(45deg, rgb(122, 120, 236), rgb(151, 71, 255));
-    padding: 10px 20px;
+    background-image: linear-gradient(45deg, #FA7261, #F96E61);
+    padding: 15px 35px;
     border-radius: 5px;
     color: white;
     font-weight: 700;
 }
-.dream-area{
-    background-image: url(images/dream-bg.png);
-    background-repeat: no-repeat;
-    background-position: right;
+.middle-area{
+    margin-top: 300px;
 }
-.single-experience{
-    box-shadow: 10px 10px 40px gray;
-    border-radius: 5px;
-    height: 80%;
+.tripple-area{
+    margin-top: 800px;
+    background-color: #F8F9FC;
+    height: 400px;
+    padding-top: 100px;
 }
-.experience-area{
-    background-image: url(images/exp-bg.png);
-    background-repeat: no-repeat;
-    background-position: left;
-    background-color: white;
+.tripple-width{
+    float: left;
+    width: 20%;
+    margin-left: 10%;
+    padding-top: 20px;
+    box-shadow: 10px 10px 40px #b4bdd6;
+    border-radius: 10px;
 }
-#full-stack{
-    border-left: 7px solid;
-    border-image: linear-gradient(180deg, rgb(170, 55, 47), rgb(227, 255, 71));
-    border-image-slice: 1;
+.full-width{
+    margin-top: 200px;
 }
-#baby-web{
-    border-left: 7px solid;
-    border-image: linear-gradient(180deg, rgb(61, 61, 110), rgba(116, 12, 69, 0.493));
-    border-image-slice: 1;
+.tripple-width img{
+    width: 100%;
 }
-footer p{
+.rong-area{
+    color: coral;
+}
+#cntr-area{
     text-align: center;
-    font-size: 12px;
+}
+.contact-area{
+    width: 100%;
+}
+.chat-box{
+    height: 250px;
+    background-image: url(images/Group_33094_1.png);
+    background-repeat: no-repeat;
+    margin-left: 250px;
+    margin-top: 200px;
+
+}
+.left-info{
+    padding-top: 41px;
+    text-align: left;
+    padding-left: 40px;
+    color: white;
+    float: left;
+}
+#right-info{
+    float: right;
+    margin-right: 240px;
+    margin-top: 90px;
+}
+.common-skill{
+    width: 100%;
+    border: 1px solid;
+    margin-top: 50px;
+    border-radius: 20px;
+    background-color:rgb(240, 226, 255);
+}
+.common-skill h3{
+    color: sandybrown;
+    margin-left: 10px;
+}
+.common-skill p{
+    font-style: italic;
+    margin-left: 10px;
+    color: slategray;
 }
